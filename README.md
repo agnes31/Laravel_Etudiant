@@ -79,8 +79,7 @@ php artisan make:controller EtudiantController -m Etudiant
 
 - GitHub
 
-
-
+https://github.com/agnes31/Laravel_Etudiant
 
 - Webdeb
 
