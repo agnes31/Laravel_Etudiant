@@ -1,14 +1,14 @@
-## College Horizon
+## Collège Horizon
 
 Le Collège Horizon est un site internet conçu pour recueillir des informations auprès des étudiants du collège. Les étudiants ont la possibilité de mettre à jour leurs informations et de supprimer leurs données à tout moment.
 
-Creation d'un site web dynamique en utilisant le cadriciel Laravel lier à la base de donnée. 
+Création d'un site web dynamique en utilisant le cadriciel Laravel lier à la base de données. 
 
-Dans MySQL creation de 2 tables : Étudient et ville.
+Dans MySQL création de 2 tables : Étudient et ville.
 
 ### Installation
 
-- créer un nouveau projet Laravel nommée Maisonneuve{votre matricule} 
+- Créer un nouveau projet Laravel nommée Maisonneuve{votre matricule} 
 
 ```
 composer create-project --prefer-dist laravel/laravel Maisonneuve2295321
