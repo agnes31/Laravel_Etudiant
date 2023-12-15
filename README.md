@@ -83,6 +83,4 @@ https://github.com/agnes31/Laravel_Etudiant
 
 - Webdeb
 
-  https://e2395321.webdev.cmaisonneuve.qc.ca/etudiants/
-
-
+https://e2395321.webdev.cmaisonneuve.qc.ca/etudiants/
