@@ -28,7 +28,7 @@ php artisan make:model Ville -m
 php artisan migrate
 ```
 
-- Données de la Base de donnée
+- Données de la Base de données
 
 ```
 php artisan make:factory VilleFactory
@@ -42,7 +42,7 @@ php artisan tinker
 ```
 ***
 
-- Création modèles et migrations pour les etudiants
+- Création modèles et migrations pour les étudiants
 
 ```
 php artisan make:model Etudiant -m
