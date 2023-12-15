@@ -1,4 +1,4 @@
-## College Horrizon
+## College Horizon
 
 Le Collège Horrizon est un site internet conçu pour recueillir des informations auprès des étudiants du collège. Les étudiants ont la possibilité de mettre à jour leurs informations et de supprimer leurs données à tout moment.
 
@@ -82,5 +82,7 @@ php artisan make:controller EtudiantController -m Etudiant
 https://github.com/agnes31/Laravel_Etudiant
 
 - Webdeb
+
+  https://e2395321.webdev.cmaisonneuve.qc.ca/etudiants/
 
 
