@@ -1,6 +1,6 @@
 ## College Horizon
 
-Le Collège Horrizon est un site internet conçu pour recueillir des informations auprès des étudiants du collège. Les étudiants ont la possibilité de mettre à jour leurs informations et de supprimer leurs données à tout moment.
+Le Collège Horizon est un site internet conçu pour recueillir des informations auprès des étudiants du collège. Les étudiants ont la possibilité de mettre à jour leurs informations et de supprimer leurs données à tout moment.
 
 Creation d'un site web dynamique en utilisant le cadriciel Laravel lier à la base de donnée. 
 
