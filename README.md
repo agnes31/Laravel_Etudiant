@@ -6,7 +6,7 @@ Le projet consiste à améliorer un réseau social pour un collège en ajoutant 
 
 - GitHub
 
-https://github.com/agnes31/Laravel_Forum
+https://github.com/agnes31/Laravel_Etudiant
 
 - Webdeb
 
