@@ -3,7 +3,7 @@
 @section('title','Modification des étudiants')
 <div class="col-lg-8 p-3 mx-auto">
     <!-- Retour -->
-    <a href="{{route('etudiant.show', $etudiant->id)}}" class="btn btn-outline-secondary btn-sm mb-3">← Retour</a>
+    <a href="{{route('etudiant.show', $etudiant->id)}}" class="btn btn-outline-secondary btn-sm mb-3">← @lang('lang.text_retour')</a>
     <!-- Formulaire de modification -->
     <div class="card mb-5 mx-auto bg-gradient-danger">
         <form method="post">

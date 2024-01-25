@@ -13,7 +13,7 @@
                 <h1 class="display-5 bg-gradient-danger text-white">Ajouter un étudiant</h1>
             </div>
             <div class="card-body">
-                <div class="control-group col-12 ">
+                <div class="control-group col-12 mt-2">
                     <label for="nom">Nom</label>
                     <input type="text" id="nom" name="nom" class="form-control" value="{{old('nom')}}" required>
                 </div>

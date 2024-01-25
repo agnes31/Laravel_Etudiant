@@ -9,7 +9,7 @@
 <div class="col-xl-10 mx-auto d-flex flex-column gap-4 text-center vh-100 justify-content-center" style="max-height: 80vh; overflow: auto;">
     <div class="d-flex align-items-start justify-content-between mt-3">
     <h2>Liste des étudiants</h2>
-        <a href="{{route('etudiant.create')}}" class="btn btn-info btn-block">Ajouter un étudiant</a>
+        <a href="{{route('etudiant.create')}}" class="btn btn-outline-info btn-sm mb-3">Ajouter un étudiant</a>
     </div>  
 
     <div class="card h-100">

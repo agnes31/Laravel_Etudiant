@@ -5,6 +5,11 @@ namespace App\Http\Controllers;
 use App\Models\Etudiant;
 use App\Models\Ville;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
+
+use function Laravel\Prompts\select;
 
 
 class EtudiantController extends Controller
@@ -44,7 +49,6 @@ class EtudiantController extends Controller
         ]);
 
         return redirect()->route('etudiant.index', $newEtudiant->id)->with('success', 'Etudiant enregistré!');
-
     }
 
     /**
@@ -60,9 +64,9 @@ class EtudiantController extends Controller
      */
     public function edit(Etudiant $etudiant)
     {
-          // récupérer toutes les villes
-          $villes = Ville::all();
-          return view('etudiant.edit', ['etudiant' => $etudiant, 'villes' => $villes]);
+        // récupérer toutes les villes
+        $villes = Ville::all();
+        return view('etudiant.edit', ['etudiant' => $etudiant, 'villes' => $villes]);
     }
 
     /**
@@ -93,12 +97,10 @@ class EtudiantController extends Controller
         return redirect()->route('etudiant.index')->withSuccess('success', 'Etudiant supprimé!');
     }
 
-    public function pagination(){
+    public function pagination()
+    {
 
-        $etudiants = Etudiant::paginate(10); 
+        $etudiants = Etudiant::paginate(10);
         return view('etudiant.index', ['etudiants' => $etudiants]);
-
     }
-
 }
-

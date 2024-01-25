@@ -18,7 +18,7 @@ class Etudiant extends Model
         'adresse',
         'email',
         'telephone',
-        'ville_id',
+        'ville_id'
     ];
 
     public function etudiantHasVille()

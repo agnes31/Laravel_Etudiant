@@ -22,9 +22,9 @@
     </div>
     <div class="col-sm d-flex flex-column justify-content-center align-items-center">
       <p>
-          <strong>Bienvenue</strong> sur notre forum étudiant ! Ici, vous pouvez partager des idées, poser des questions et discuter de divers sujets liés à la vie étudiante.
+          <strong>@lang('lang.text_welcome')</strong>@lang('lang.text_present')
       </p>
-      <a href="{{route('etudiant.index')}}" class="btn btn-info btn-sm">Voir la liste des étudiants</a>
+      <a href="{{route('forum.index')}}" class="btn btn-info btn-sm">@lang('lang.text_post')</a>
     </div>
     <div class="col-sm">
       <img src="{{ asset('assets/images/cinq.jpeg') }}"class="img-fluid rounded" alt="Description de l'image">
